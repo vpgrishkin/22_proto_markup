@@ -1,6 +1,9 @@
 from staticjinja import make_site
 
 
+OUTPATH = "site"
+
+
 if __name__ == "__main__":
-    site = make_site()
-    site.render(use_reloader=True)
+    site = make_site(outpath=OUTPATH)
+    site.render()
