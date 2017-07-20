@@ -1,0 +1,28 @@
+<div class="container">
+  <h2>Сважие заявки</h2>
+  {% for indent in range(4) %}
+    <div class="row">
+      <div class="request col-md-12">
+         <div class="row">
+              <div class="col-md-6">
+                  <p class="text-muted">вчера, 21.30</p>
+              </div>
+              <div class="col-md-6 text-right">
+                  <span class="underlined ">&#9733; В закладки</span>
+              </div>
+          </div>
+          <p>60 шт. ПК от 72-15 до ПК 21-15, Криводановка с доставкой</p>
+          <p class="name">Алексей</p>
+          <button type="submit" class="btn btn-default small-grey">Показать телефон</button>
+          <span class="text-muted">12 просмотров</span>
+      </div>
+    </div>
+  {% endfor %}
+    <div class="container text-center">
+  {% if page == "index" %}
+     <a href="proposals-list.html" class="btn btn-default requests">Посмотреть все заявки</a>
+  {% else %}
+     <button class="btn btn-default">Показать еще</button>
+  {% endif %}
+  </div>
+</div>

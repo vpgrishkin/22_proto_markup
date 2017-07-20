@@ -1,0 +1,47 @@
+<div class="row reviews-row">
+  <div class="col-md-8 col-md-offset-2 reviews">
+
+    <div id="reviewCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+      <div class="raw">
+        <div class="col-md-offset-3 col-md-6">
+          <div class="carousel-inner">
+
+            {% for review in range(3)%}
+              <div class="{% if review == 0 %}active {% endif %}item">
+
+                <div class="carousel-caption">
+                  <div class="row">
+                    <div class="col-md-2 user-pic">
+                      <span class="glyphicon glyphicon-user"></span>
+                    </div>
+                    <div class="col-md-10 review-text">
+                      <p><b>Кирил, 29&nbsp;лет, г.&nbsp;Барабинск</b></p>
+                      <p>Бла-бла, мне помогло, все супер! Бла-бла, мне помогло, все супер! Бла-бла, мне помогло, все супер! Бла-бла, мне помогло, все супер! Бла-бла, мне помогло, все супер!</p>
+                    </div>
+                  </div>
+                </div>
+              
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+
+      <a class="carousel-control left" href="#reviewCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+
+      <a class="carousel-control right" href="#reviewCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+      </div>
+
+    </div>
+  </div>
+  
+  <div class="col-md-1">
+    <div class="text-center">
+      <button type="submit" class="btn btn-default center-block" id="add-review-btn">Оставить отзыв</button>
+    </div>
+  </div>
+
+</div>
