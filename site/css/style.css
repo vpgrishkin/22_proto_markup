@@ -1,0 +1,102 @@
+.search-form {
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: lightgrey;
+}
+
+.btn.btn-default {
+  text-transform: uppercase;
+  border: solid;
+  border-radius: 15px;
+  border-width: thin;
+}
+
+.btn.small-grey {
+  text-transform: uppercase;
+  border: solid;
+  border-radius: 10px;
+  background-color: lightgrey;
+  border-width: thin;
+}
+
+.btn.small-grey:hover {
+background-color: white;
+}
+
+.request {
+  margin-top: 20px;
+  border-top: 1px solid black;
+}
+.item {
+  text-align: center;
+  height: 200px;
+}
+
+.carousel-caption {
+  color: black;
+}
+
+.reviews-row {
+  margin-bottom: 50px;
+}
+
+.reviews {
+  margin-top: 2%;
+}
+.user-pic {
+  text-align: center;
+  padding-top: 40px;
+  margin-top: 2%;
+  font-size: 40px;
+}
+.carousel-inner {
+  border: 3px;
+  border-style: solid;
+  border-color: #b3b3b3;
+}
+.carousel-control {
+  background-image: none !important;
+  color: grey;
+  font-size: 48px;
+  padding-top: 10%;
+}
+.carousel-control.right{
+  position: absolute;
+  right: 0%;
+  top: 25px;
+}
+
+.carousel-control.left {
+  position: absolute;
+  left: 0%;
+  top: 25px;
+}
+
+#add-review-btn {
+  margin: auto;
+  border-radius: 0px;
+  margin-top: 100px;
+}
+
+#send-provider-btn {
+  margin: auto;
+  border-radius: 0px;
+}
+
+.provider-form {
+  background-color: #b3b3b3;
+}
+
+.contact {
+  background-color: #b3b3b3;
+}
+
+.contact-text {
+  padding-left: 5%;
+}
+
+.review-text {
+  text-align: center;
+}
