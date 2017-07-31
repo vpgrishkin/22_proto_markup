@@ -1,3 +1,17 @@
+p.navbar-text {
+color: black !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #337ab7;
+    text-decoration: underline;
+}
+
+.participants .participants>a {
+  color: black !important;
+  text-decoration: underline;
+}
+
 .search-form {
   border-style: solid;
   border-width: 1px;
@@ -7,14 +21,12 @@
 }
 
 .btn.btn-default {
-  text-transform: uppercase;
   border: solid;
   border-radius: 15px;
-  border-width: thin;
+  border-width: thin; !important
 }
 
 .btn.small-grey {
-  text-transform: uppercase;
   border: solid;
   border-radius: 10px;
   background-color: lightgrey;
@@ -25,9 +37,15 @@
 background-color: white;
 }
 
-.request {
+.proposals {
   margin-top: 20px;
   border-top: 1px solid black;
+}
+
+.btn-proposals {
+  margin-top: 20px;
+  border-top: 1px solid black;
+  padding-top: 20px;
 }
 .item {
   text-align: center;
@@ -99,4 +117,12 @@ background-color: white;
 
 .review-text {
   text-align: center;
+}
+
+.paginator {
+  text-align:center;
+}
+
+.pagination>li>a {
+  color: black;
 }

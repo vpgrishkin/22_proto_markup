@@ -1,8 +1,10 @@
 <div class="container">
-  <h2>Сважие заявки</h2>
+  {% if page == "index" %}
+     <h2>Сважие заявки</h2>
+  {% endif %}
   {% for indent in range(4) %}
     <div class="row">
-      <div class="request col-md-12">
+      <div class="proposals col-md-12">
          <div class="row">
               <div class="col-md-6">
                   <p class="text-muted">вчера, 21.30</p>
@@ -18,9 +20,9 @@
       </div>
     </div>
   {% endfor %}
-    <div class="container text-center">
+    <div class="container text-center btn-proposals">
   {% if page == "index" %}
-     <a href="proposals-list.html" class="btn btn-default requests">Посмотреть все заявки</a>
+     <a href="proposals-list.html" class="btn btn-default proposals">Посмотреть все заявки</a>
   {% else %}
      <button class="btn btn-default">Показать еще</button>
   {% endif %}
