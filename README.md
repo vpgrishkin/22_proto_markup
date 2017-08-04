@@ -1,5 +1,5 @@
 # Suppliers in Novosibirsk
-The [site](https://vpgrishkin.github.io/22_proto_markup/) is an examble using Bootstrap framwork, Jinja2 (templating language) and contains two pages. It been validated by the W3C Validator.
+The [site](vpgrishkin.github.io/22_proto_markup/site/index.html) is an examble using Bootstrap framwork, Jinja2 (templating language) and contains two pages. It been validated by the W3C Validator.
 
 # How to generate html from templates
 ``` #!bash
