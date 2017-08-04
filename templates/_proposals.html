@@ -1,7 +1,33 @@
-<div class="container">
-  {% if page == "index" %}
-     <h2>Сважие заявки</h2>
+<div class="container proposals-head">
+  {% if page == 'index' %}
+     <h2 class="text-center">Свежие заявки</h2>
   {% endif %}
+    <div class="row">
+      <div class="col-md-6">
+        <div class="dropdown text-left">
+          Раздел: <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+            Все 
+            <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Раздел 1</a></li>
+            <li><a href="#">Раздел 2</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6 text-right">
+        <div class="dropdown">
+          Регион: <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+            Новосибирск и область 
+            <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Москва и МО</a></li>
+            <li><a href="#">Санкт-Петербург</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
   {% for indent in range(4) %}
     <div class="row">
       <div class="proposals col-md-12">
