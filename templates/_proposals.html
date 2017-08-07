@@ -1,9 +1,15 @@
 <div class="container proposals-head">
   {% if page == 'index' %}
-     <h2 class="text-center">Свежие заявки</h2>
+    <h2 class="text-center">Свежие заявки</h2>
+  {% else %}
+    <div class="row">
+      <div class="col-md-12 text-left">
+        <h1>Заявки</h1>
+      </div>
+    </div>
   {% endif %}
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-9">
         <div class="dropdown text-left">
           Раздел: <a href="#" data-toggle="dropdown" class="dropdown-toggle">
             Все 
@@ -15,7 +21,7 @@
           </ul>
         </div>
       </div>
-      <div class="col-md-6 text-right">
+      <div class="col-md-3">
         <div class="dropdown">
           Регион: <a href="#" data-toggle="dropdown" class="dropdown-toggle">
             Новосибирск и область 
@@ -32,10 +38,10 @@
     <div class="row">
       <div class="proposals col-md-12">
          <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-10 col-xs-12">
                   <p class="text-muted">вчера, 21.30</p>
               </div>
-              <div class="col-md-6 text-right">
+              <div class="col-md-2 col-xs-12">
                   <span class="underlined ">&#9733; В закладки</span>
               </div>
           </div>

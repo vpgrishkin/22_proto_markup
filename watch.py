@@ -6,4 +6,4 @@ server = Server()
 server.watch('templates/*.html', 'python render_templates.py')
 
 
-server.serve(root='site/')
+server.serve()

@@ -16,7 +16,7 @@ Use livereload (waching the templates changes):
 
 python watch_teml.py
 ```
-and get the result: [127.0.0.1:5500](http://127.0.0.1:5500/) 
+and get the result: [127.0.0.1:5500/site](http://127.0.0.1:5500/site) 
 
 # Project Goals
 The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)

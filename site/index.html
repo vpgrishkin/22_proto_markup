@@ -15,7 +15,12 @@
     
   <nav class="navbar navbar-default">
   <div class="container-fluid">
-    <div class="collapse navbar-collapse">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar-main">
       <ul class="nav navbar-nav">
         <li class="navbar-text">Регион:</li>
         <li class="dropdown">
@@ -44,12 +49,14 @@
       <h1>ВАМ ПОЗВОНЯТЬ ЛУЧШИЕ ПОСТАВЩИКИ НОВОСИБИРСКА</h1>
     </div>
   </div>
+
   <div class="row">
-    <div class="search-form">
-      <h2>Я ищу</h2>
-      <form class="form-horizontal">
-          <div class="form-group">
-            <div class="col-md-10 col-md-offset-2">
+  <div class="search-form col-md-10 col-md-offset-2">
+    <h2>Я ищу</h2>
+    <form class="form-horizontal">
+        <div class="form-group">
+          <div class="row">
+            <div class="col-md-10 col-md-offset-2"">
               <div class="checkbox">
                 <label><input type="checkbox" value="">ЖБИ (фундаментальные блоки ФБС, плиты перекрытий ПК, перемычки)</label>
               </div>
@@ -68,43 +75,44 @@
                 <li><a href="#">в Калуге</a></li>
               </ul> 
             </div>
-          
-            <div class="form-group">
-              <label for="desription" class="control-label col-md-2 text-right">Описание * </label>
-              <div class="col-md-9">
-                <input type="text" class="form-control input-lg" id="desription">
-                <p class="text-muted">Пример: нужно фбс 24.4.6 50 шт плиты пк 20 ПК 60-20-12 доставка в Новолуговое</p>
-              </div>
-            </div>
-
-            <div class="form-group">
-              <label for="phone" class="col-md-2 text-right control-label">Телефон *</label>
-              <div class="col-md-3">
-                  <input type="text" class="form-control" id="phone">
-              </div>
-              <label for="name" class="col-md-2 text-right control-label">Имя </label>
-              <div class="col-md-4">
-                  <input type="text" class="form-control" id="name">
-              </div>
-            </div>
-          
-            <div class="form-group">
-              <div class="text-center">
-                  <button type="submit" class="btn btn-default">ОПУБЛИКОВАТЬ ЗАЯВКУ</button>
-              </div>
-            </div>
-          
           </div>
-      </form>
-    </div>
+        
+          <div class="form-group row">
+            <label for="desription" class="control-label col-md-2 text-right">Описание * </label>
+            <div class="col-md-9">
+              <input type="text" class="form-control input-lg" id="desription">
+              <p class="text-muted">Пример: нужно фбс 24.4.6 50 шт плиты пк 20 ПК 60-20-12 доставка в Новолуговое</p>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="phone" class="col-md-2 text-right control-label">Телефон *</label>
+            <div class="col-md-3">
+                <input type="text" class="form-control" id="phone">
+            </div>
+            <label for="name" class="col-md-2 text-right control-label">Имя </label>
+            <div class="col-md-4">
+                <input type="text" class="form-control" id="name">
+            </div>
+          </div>
+        
+          <div class="form-group row">
+            <div class="text-center">
+                <button type="submit" class="btn btn-default">ОПУБЛИКОВАТЬ ЗАЯВКУ</button>
+            </div>
+          </div>
+        
+        </div>
+    </form>
+  </div>
   </div>
 </div>
   <div class="container proposals-head">
   
-     <h2 class="text-center">Свежие заявки</h2>
+    <h2 class="text-center">Свежие заявки</h2>
   
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-9">
         <div class="dropdown text-left">
           Раздел: <a href="#" data-toggle="dropdown" class="dropdown-toggle">
             Все 
@@ -116,7 +124,7 @@
           </ul>
         </div>
       </div>
-      <div class="col-md-6 text-right">
+      <div class="col-md-3">
         <div class="dropdown">
           Регион: <a href="#" data-toggle="dropdown" class="dropdown-toggle">
             Новосибирск и область 
@@ -133,10 +141,10 @@
     <div class="row">
       <div class="proposals col-md-12">
          <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-10 col-xs-12">
                   <p class="text-muted">вчера, 21.30</p>
               </div>
-              <div class="col-md-6 text-right">
+              <div class="col-md-2 col-xs-12">
                   <span class="underlined ">&#9733; В закладки</span>
               </div>
           </div>
@@ -150,10 +158,10 @@
     <div class="row">
       <div class="proposals col-md-12">
          <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-10 col-xs-12">
                   <p class="text-muted">вчера, 21.30</p>
               </div>
-              <div class="col-md-6 text-right">
+              <div class="col-md-2 col-xs-12">
                   <span class="underlined ">&#9733; В закладки</span>
               </div>
           </div>
@@ -167,10 +175,10 @@
     <div class="row">
       <div class="proposals col-md-12">
          <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-10 col-xs-12">
                   <p class="text-muted">вчера, 21.30</p>
               </div>
-              <div class="col-md-6 text-right">
+              <div class="col-md-2 col-xs-12">
                   <span class="underlined ">&#9733; В закладки</span>
               </div>
           </div>
@@ -184,10 +192,10 @@
     <div class="row">
       <div class="proposals col-md-12">
          <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-10 col-xs-12">
                   <p class="text-muted">вчера, 21.30</p>
               </div>
-              <div class="col-md-6 text-right">
+              <div class="col-md-2 col-xs-12">
                   <span class="underlined ">&#9733; В закладки</span>
               </div>
           </div>
